@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Playlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="center">
+    <h1>Favorite Playlist</h1>
+        <div class="music-player">
+            <audio id="audio" controls>
+                <source type="audio/mpeg">
+            </audio>
+            <div class="controls">
+                <button id="prev">Previous()</button>
+                <button id="play-pause">Play</button>
+                <button id="next">Next</button>
+                <input id="volume" type="range" min="0" max="1" step="0.01" value="1">
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
